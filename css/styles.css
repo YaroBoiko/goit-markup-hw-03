@@ -47,7 +47,7 @@ body {
 
 /* ====== Page header styles ====== */
 
-.page-header-container {
+.page-header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
@@ -132,9 +132,6 @@ body {
 /* ====== Page main styles ====== */
 .title {
   background-color: #2e2f42;
-}
-
-.container-title {
   padding-top: 188px;
   padding-bottom: 188px;
 }
