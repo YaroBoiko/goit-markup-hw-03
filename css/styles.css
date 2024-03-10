@@ -48,9 +48,12 @@ body {
 /* ====== Page header styles ====== */
 
 .page-header {
-  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header-container {
+  display: flex;
 }
 
 .main-navigation {
@@ -178,15 +181,16 @@ body {
 }
 
 .visually-hidden {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  margin: -1px !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  border: 0 !important;
-}
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 
 .business-solutions-title {
   margin-bottom: 8px;
