@@ -105,6 +105,7 @@ body {
 .contacts {
   align-items: center;
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-list {
